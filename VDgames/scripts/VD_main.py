@@ -1,5 +1,4 @@
-def main():
-    print("Welcome to the VD_games")
+from VDgames.scripts.VD_games import greeter
 
-if __name__ == "__main__":
-    main()
+def main():
+    greeter()
